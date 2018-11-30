@@ -1,19 +1,19 @@
 # common-utils
-## 程序员7大生产力工具
+## 1.程序员7大生产力工具
 https://zhuanlan.zhihu.com/p/27419523
-## AI community
+## 2.AI community
 https://www.ziiai.com/
 
-## ML community
+## 3.ML community
 
 
-## Python community
+## 4.Python community
 
 
-## DeepLearning community
+## 5.DeepLearning community
 
 
-### common-use website
+## 6.common-use website
 
 
 
