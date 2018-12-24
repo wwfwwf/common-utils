@@ -1,0 +1,15 @@
+# https://blog.csdn.net/lhxsir/article/details/83308094
+# 分词、去除停用词函数
+
+def preprocess_text(content_lines, sentences, category):
+    for line in content_lines:
+        try:
+            segs=jieba.lcut(line)
+            segs = [v for v in segs if not str(v).isdigit()]#去数字
+            segs = list(filter(lambda x:x.strip(), segs))   #去左右空格
+            segs = list(filter(lambda x:len(x)>1, segs)) #长度为1的字符
+            segs = list(filter(lambda x:x not in stopwords, segs)) #去掉停用词
+            sentences.append((" ".join(segs), category))# 打标签
+        except Exception:
+            print(line)
+            continue
