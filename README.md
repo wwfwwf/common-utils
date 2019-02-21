@@ -19,4 +19,7 @@ https://www.ziiai.com/
 ## 6.common-use website
 
 
+## github上插入图片的2中方法
 ![msr](img/msr.png)
+![msr](bg.jpg)
+![avatar](bg.jpg)
